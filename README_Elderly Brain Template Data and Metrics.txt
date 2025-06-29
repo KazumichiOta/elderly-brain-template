@@ -3,9 +3,9 @@ This repository contains supplementary data related to the Elderly Brain Templat
 “Developing and Validating an Elderly Brain Template: A Comprehensive Comparison with MNI152 for Age-Specific Neuroimaging Analyses.”
 
 Specifically, it includes:
-- Subcortical Dice coefficients for 283 participants from the IXI dataset.
-- Whole-brain metrics (3D-SSIM, CC, MSE) for the same participants.
-- Demographics (ID, sex, and age) of older adults (65–84 years) selected from the OASIS-1 dataset, reflecting the 2020 Japanese census distribution.
+- Subcortical Dice coefficients for 282 QC-passed IXI participants (after intracranial-volume QC; see Methods §2.2.3).
+- Whole-brain metrics (3D-SSIM, CC, MSE) for the same 282 QC-passed IXI participants.
+- Demographics (ID, sex, age) for 90 QC-passed older adults (65–84 years) from the OASIS-1 dataset, matched to the 2020 Japanese census distribution.
 - Iterative convergence metrics (MSE, CC, 3D-SSIM) capturing how the Elderly Template was refined over 20 iterative updates (phases).
 
 # 2. File Contents
@@ -28,7 +28,7 @@ Specifically, it includes:
   - **Value**: Numerical value of that metric
 
 ## 2.3 Oasis_Japan_demographics.csv
-- **Description**: Demographic information (ID, sex, age) for older adults (65–84 years) extracted from OASIS-1, matching the age and sex distributions reported in the 2020 Japanese census.
+- **Description**: Demographic information (ID, sex, age) for 90 QC-passed older adults (65–84 years) extracted from OASIS-1, matching the age and sex distributions reported in the 2020 Japanese census.
 - **Columns**:
   - **ID**: OASIS-1 subject ID
   - **Sex**: “F” or “M”
