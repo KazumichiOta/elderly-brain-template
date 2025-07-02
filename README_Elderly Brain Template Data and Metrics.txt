@@ -1,12 +1,15 @@
 # 1. Overview
 This repository contains supplementary data related to the Elderly Brain template developed and evaluated in our study,  
-“Developing and Validating an Elderly Brain template: A Comprehensive Comparison with MNI152 for Age-Specific Neuroimaging Analyses.”
+*Developing and Validating an Elderly Brain template: A Comprehensive Comparison with MNI152 for Age-Specific Neuroimaging Analyses*
 
 Specifically, it includes:
 - Subcortical Dice coefficients for n=282 QC-passed IXI participants (after intracranial-volume QC; see Methods §2.2.3).
 - Whole-brain metrics (3D-SSIM, CC, MSE) for the same 282 QC-passed IXI participants.
 - Demographics (ID, sex, age) for n=90 QC-passed older adults (65–84 years) from the OASIS-1 dataset, matched to the 2020 Japanese census distribution.
 - Iterative convergence metrics (MSE, CC, 3D-SSIM) capturing how the Elderly template was refined over 20 iterative updates (phases).
+- Binary masks for seven subcortical ROIs and for GM / WM / CSF tissue classes.
+
+---
 
 # 2. File Contents
 
@@ -54,6 +57,23 @@ These iterative metrics reveal how each subject’s registration to the evolving
   - **Orientation**: L–R, P–A, I–S (qform/sform set to Scanner Anat)  
   - Incorporates age-specific morphological features (e.g., atrophy, ventricular enlargement) commonly seen in older adults (65+).
 
+## 2.6 Mask files  
+All masks are provided under `masks/`
+```text
+masks/
+├─ subcortical/          # 7 binary ROI masks
+│   ├─ brainstem_mask.nii.gz
+│   ├─ amygdala_mask.nii.gz
+│   ├─ caudate_mask.nii.gz
+│   ├─ hippocampus_mask.nii.gz
+│   ├─ pallidum_mask.nii.gz
+│   ├─ putamen_mask.nii.gz
+│   └─ thalamus_mask.nii.gz
+└─ tissue/               # tissue-class masks (SynthSeg)
+    ├─ gm_mask.nii.gz
+    ├─ wm_mask.nii.gz
+    └─ csf_mask.nii.gz
+
 # 3. Usage Guidelines
 
 ## 3.1 Analysis Pipeline
@@ -97,4 +117,4 @@ If you have any questions, feedback, or encounter issues with these files, pleas
 ---
 
 [ants-ref]: https://github.com/ANTsX/ANTs  
-[freesurfer-ref]: https://surfer.nmr.mgh.harvard.edu/  
+[freesurfer-ref]: https://surfer.nmr.mgh.harvard.edu/ 
