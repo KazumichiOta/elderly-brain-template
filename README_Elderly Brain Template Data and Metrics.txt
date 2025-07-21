@@ -89,11 +89,11 @@ By loading these CSV files into your preferred environment (Python, R, etc.), yo
 This repository contains derivative data from:
 
 1. **IXI Dataset** – CC BY-SA 3.0  
-2. **OASIS-1 Dataset** – OASIS Data Use Agreement
+2. **OASIS-1 Dataset** – OASIS Data Use Agreement (DUA)
 
-Therefore, all files here are released under the  
-**Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)** license.  
-Use of any component derived from OASIS data additionally requires compliance with the OASIS DUA.
+All files are released under the  
+**Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)** licence;  
+however, any file derived from OASIS-1 must also comply with the original **OASIS DUA**.
 
 # 5. Citation
 If you use this template or any associated data, please cite **both** the article and the dataset:
