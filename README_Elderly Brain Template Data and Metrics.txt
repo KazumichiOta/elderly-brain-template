@@ -96,13 +96,16 @@ Therefore, all files here are released under the
 Use of any component derived from OASIS data additionally requires compliance with the OASIS DUA.
 
 # 5. Citation
-If you use or reference these data, please cite the following paper accordingly:
+If you use this template or any associated data, please cite **both** the article and the dataset:
 
-Kazumichi Ota*, Yoshihiko Nakazato, Genko Oyama.  
-“Developing and Validating an Elderly Brain template: A Comprehensive Comparison with MNI152 for Age-Specific Neuroimaging Analyses.”  
-2024. doi:xxx/yyy  
+Ota K.*, Nakazato Y., Oyama G.
+Developing and Validating an Elderly Brain Template:
+A Comprehensive Comparison with MNI152 for Age-Specific Neuroimaging Analyses.
+NeuroImage (in press).  https://doi.org/XXXXXXXX  ← replace with article DOI
 
-*Note:* This reference is provisional. Once the paper is published or assigned a DOI, please update this citation with the final publication details.
+Dataset DOI  10.5281/zenodo.16249930  (Elderly Brain Template v1.0)
+
+*Note – This reference is provisional. Replace the article DOI placeholder once the journal assigns the final DOI.*
 
 # 6. Contact
 - **Corresponding Author**: Kazumichi Ota*  
