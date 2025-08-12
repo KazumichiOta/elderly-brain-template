@@ -39,7 +39,7 @@ Specifically, it includes:
   - **Sex**: “F” or “M”
   - **Age (years)**: Actual age
 
-## 2.4 Elderly template_construction(SSIM_CC_MSE).csv
+## 2.4 ElderlyTemplate_construction(SSIM_CC_MSE).csv
 - **Description**:  
   This file contains the iterative metrics used to evaluate the convergence of our Elderly template construction. We performed a total of 20 updates (phases), and after every two steps, we checked 3D-SSIM (three-dimensional structural similarity index), CC (cross-correlation), and MSE (mean squared error) to determine whether the template had sufficiently converged.
 - **Columns**:
@@ -75,6 +75,7 @@ masks/
     ├─ gm_mask.nii.gz
     ├─ wm_mask.nii.gz
     └─ csf_mask.nii.gz
+```
 
 # 3. Usage Guidelines
 
@@ -94,7 +95,7 @@ This repository contains derivative data from:
 2. **OASIS-1 Dataset** – OASIS Data Use Agreement (DUA)
 
 All files are released under the  
-**Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)** licence;  
+**Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)** license;  
 however, any file derived from OASIS-1 must also comply with the original **OASIS DUA**.
 
 # 5. Citation
