@@ -60,7 +60,7 @@ These iterative metrics reveal how each subject’s registration to the evolving
   - Incorporates age-specific morphological features (e.g., atrophy, ventricular enlargement) commonly seen in older adults (65+).
 
 ## 2.6 Mask files  
-All masks are provided under `masks/`
+All masks are provided under `masks/`.
 ```text
 masks/
 ├─ subcortical/          # 7 binary ROI masks
