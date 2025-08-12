@@ -106,7 +106,7 @@ Developing and Validating an Elderly Brain Template:
 A Comprehensive Comparison with MNI152 for Age-Specific Neuroimaging Analyses.
 NeuroImage (in press).  https://doi.org/XXXXXXXX  ← replace with article DOI
 
-Dataset DOI  10.5281/zenodo.16249929  (Elderly Brain Template v1.0)
+Dataset DOI: https://doi.org/10.5281/zenodo.16249929  (Elderly Brain Template v1.0)  
 
 *Note – This reference is provisional. Replace the article DOI placeholder once the journal assigns the final DOI.*
 
