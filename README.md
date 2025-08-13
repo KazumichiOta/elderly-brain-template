@@ -88,6 +88,14 @@ The **Age Group** column (A, B, C, D, E, F) is intended purely for visualization
 ## 3.3 Reanalysis
 By loading these CSV files into your preferred environment (Python, R, etc.), you can replicate or expand our findings on template performance across different ages—both in terms of subcortical overlap (Dice) and whole-brain metrics (3D-SSIM, CC, MSE). For the Elderly template construction process specifically, **ElderlyTemplate_construction(SSIM_CC_MSE).csv** documents each iteration’s alignment quality.
 
+## 3.4 Reproduce numeric results (Tables 2–S6)
+
+To recompute all numeric tables from the released CSVs (no plotting), run:
+
+```bash
+Rscript analysis/reproduce_metrics.R
+```
+
 # 4. License
 This repository contains derivative data from:
 
@@ -106,7 +114,7 @@ Developing and Validating an Elderly Brain Template:
 A Comprehensive Comparison with MNI152 for Age-Specific Neuroimaging Analyses.
 NeuroImage (in press).  https://doi.org/XXXXXXXX  ← replace with article DOI
 
-Dataset DOI: https://doi.org/10.5281/zenodo.16249929  (Elderly Brain Template v1.0)  
+Dataset DOI: https://doi.org/10.5281/zenodo.16249929  (Elderly Brain Template v1.1)  
 
 *Note – This reference is provisional. Replace the article DOI placeholder once the journal assigns the final DOI.*
 
