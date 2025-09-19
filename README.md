@@ -1,8 +1,8 @@
 [![DOI (v1.1)](https://zenodo.org/badge/DOI/10.5281/zenodo.16827113.svg)](https://doi.org/10.5281/zenodo.16827113)
 
 # 1. Overview
-This repository contains supplementary data related to the Elderly Brain template developed and evaluated in our study,  
-*Developing and Validating an Elderly Brain template: A Comprehensive Comparison with MNI152 for Age-Specific Neuroimaging Analyses*
+This repository contains supplementary data related to the Elderly Brain Template developed and evaluated in our study,  
+*Developing and Validating an Elderly Brain Template: A Comprehensive Comparison with MNI152 for Age-Specific Neuroimaging Analyses*
 
 Specifically, it includes:
 - Subcortical Dice coefficients for n=282 QC-passed IXI participants (after intracranial-volume QC; see Methods §2.2.3).
@@ -114,13 +114,11 @@ Developing and Validating an Elderly Brain Template:
 A Comprehensive Comparison with MNI152 for Age-Specific Neuroimaging Analyses.
 NeuroImage. 2025; in press. https://doi.org/10.1016/j.neuroimage.2025.121473
 
-Dataset DOI: https://doi.org/10.5281/zenodo.16249929  (Elderly Brain Template v1.1)  
-
-*Note – This reference is provisional. Replace the article DOI placeholder once the journal assigns the final DOI.*
+Dataset DOI: https://doi.org/10.5281/zenodo.16827113  (Elderly Brain Template v1.1)  
 
 # 6. Contact
 - **Corresponding Author**: Kazumichi Ota*  
-- **Email**: Kota24@saitama-med.ac.jp  
+- **Email**: kota24@saitama-med.ac.jp  
 
 If you have any questions, feedback, or encounter issues with these files, please feel free to contact us.
 
