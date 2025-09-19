@@ -109,10 +109,10 @@ however, any file derived from OASIS-1 must also comply with the original **OASI
 # 5. Citation
 If you use this template or any associated data, please cite **both** the article and the dataset:
 
-Ota K.*, Nakazato Y., Oyama G.
+Ota K (Corresponding author), Nakazato Y., Oyama G.
 Developing and Validating an Elderly Brain Template:
 A Comprehensive Comparison with MNI152 for Age-Specific Neuroimaging Analyses.
-NeuroImage (in press).  https://doi.org/XXXXXXXX  ← replace with article DOI
+NeuroImage. 2025; in press. https://doi.org/10.1016/j.neuroimage.2025.121473
 
 Dataset DOI: https://doi.org/10.5281/zenodo.16249929  (Elderly Brain Template v1.1)  
 
