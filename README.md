@@ -21,7 +21,7 @@ Specifically, it includes:
   - **ID**: Subject ID from IXI
   - **Age**: Actual age in years
   - **Age Group**: Categorical label (A=20–29, B=30–39, C=40–49, D=50–59, E=60–69, F=≥70) for visualization only
-  - **template**: “Elderly” or “MNI152”
+  - **Template**: “Elderly” or “MNI152”
   - **Region**: e.g., amygdala, brainstem, hippocampus, pallidum, etc.
   - **Dice**: Dice coefficient measuring subcortical overlap between the registered subject image and the chosen template
 
