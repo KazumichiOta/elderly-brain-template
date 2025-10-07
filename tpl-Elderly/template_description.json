@@ -1,0 +1,35 @@
+{
+  "Authors": [
+    "Kazumichi Ota",
+    "Yoshihiko Nakazato",
+    "Genko Oyama"
+  ],
+  "Acknowledgements": "Curated for TemplateFlow by the authors.",
+  "BIDSVersion": "1.8.0",
+  "Identifier": "Elderly",
+  "License": "CC-BY-SA-4.0",
+  "Name": "Elderly Brain Template (1 mm)",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1016/j.neuroimage.2025.121473",
+    "https://doi.org/10.5281/zenodo.16827113"
+  ],
+  "res": {
+    "01": {
+      "zooms": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "shape": [
+        176,
+        208,
+        176
+      ],
+      "origin": [
+        -0.0,
+        -0.0,
+        0.0
+      ]
+    }
+  }
+}
