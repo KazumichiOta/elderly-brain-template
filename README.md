@@ -75,7 +75,7 @@ masks/
     ├─ gm_mask.nii.gz
     ├─ wm_mask.nii.gz
     └─ csf_mask.nii.gz
-```
+
 ## 2.7 TemplateFlow (tpl-Elderly) — pending
 
 **Identifier**: `tpl-Elderly` **Resolution**: `res-01` (1 mm)  
@@ -93,7 +93,7 @@ from templateflow import api as tf
 t1 = tf.get('tpl-Elderly', resolution='01', suffix='T1w', extension='nii.gz')
 gm = tf.get('tpl-Elderly', resolution='01', desc='gm', suffix='mask', extension='nii.gz')
 print(t1); print(gm)
-
+``` 
 # 3. Usage Guidelines
 
 ## 3.1 Analysis Pipeline
