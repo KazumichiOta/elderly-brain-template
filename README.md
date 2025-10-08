@@ -1,4 +1,4 @@
-[![DOI (v1.1)](https://zenodo.org/badge/DOI/10.5281/zenodo.16827113.svg)](https://doi.org/10.5281/zenodo.16827113)
+[![DOI (concept)](https://zenodo.org/badge/DOI/10.5281/zenodo.16249928.svg)](https://doi.org/10.5281/zenodo.16249928)
 
 # 1. Overview
 This repository contains supplementary data related to the Elderly Brain Template developed and evaluated in our study,  
