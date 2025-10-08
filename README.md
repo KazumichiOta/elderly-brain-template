@@ -79,7 +79,7 @@ masks/
 ## 2.7 TemplateFlow (tpl-Elderly) — pending
 
 **Identifier**: `tpl-Elderly` **Resolution**: `res-01` (1 mm)  
-**Packaging**: TemplateFlow layout r1（**voxel/shape/affine は Zenodo v1.1 と同一**）
+**Packaging**: TemplateFlow layout r1 (**voxel values/shape/affine identical to Zenodo v1.1**)
 
 ### Files (TemplateFlow naming)
 - `tpl-Elderly_res-01_T1w.nii.gz`
