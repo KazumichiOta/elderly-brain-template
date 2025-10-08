@@ -129,12 +129,14 @@ A machine-readable LICENSE file is included in `tpl-Elderly/` (and mirrors this 
 # 5. Citation
 If you use this template or any associated data, please cite **both** the article and the dataset:
 
-Ota K (Corresponding author), Nakazato Y., Oyama G.
-Developing and Validating an Elderly Brain Template:
-A Comprehensive Comparison with MNI152 for Age-Specific Neuroimaging Analyses.
-**NeuroImage**. 2025; 320:121473 https://doi.org/10.1016/j.neuroimage.2025.121473
+**Article**  
+Ota K, Nakazato Y, Oyama G, *et al.* *Developing and Validating an Elderly Brain Template: A Comprehensive Comparison with MNI152 for Age-Specific Neuroimaging Analyses.* **NeuroImage**. 2025; 320:121473. https://doi.org/10.1016/j.neuroimage.2025.121473
 
-Dataset DOI: https://doi.org/10.5281/zenodo.16827113  (Elderly Brain Template v1.1)  
+**Dataset (this version: v1.1)**  
+https://doi.org/10.5281/zenodo.16827113
+
+**Dataset (concept DOI; always latest)**  
+https://doi.org/10.5281/zenodo.16249928
 
 # 6. Contact
 - **Corresponding Author**: Kazumichi Ota*  
