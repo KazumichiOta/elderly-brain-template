@@ -7,7 +7,7 @@
   "Acknowledgements": "Curated for TemplateFlow by the authors.",
   "BIDSVersion": "1.8.0",
   "Identifier": "Elderly",
-  "License": "CC-BY-SA-4.0",
+  "License": "CC-BY-4.0",
   "Name": "Elderly Brain Template (1 mm)",
   "ReferencesAndLinks": [
     "https://doi.org/10.1016/j.neuroimage.2025.121473",
