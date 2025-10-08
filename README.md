@@ -96,15 +96,18 @@ To recompute all numeric tables from the released CSVs (no plotting), run:
 Rscript analysis/reproduce_metrics.R
 ```
 
-# 4. License
-This repository contains derivative data from:
+## 4. License
 
-1. **IXI Dataset** – CC BY-SA 3.0  
-2. **OASIS-1 Dataset** – OASIS Data Use Agreement (DUA)
+**This repository’s distributed assets (tpl-Elderly/ — 1-mm template, binary masks, and `template_description.json`) are released under the Creative Commons Attribution 4.0 International license (CC BY-4.0).**  
+A machine-readable LICENSE file is included in `tpl-Elderly/` (and mirrors this statement).
 
-All files are released under the  
-**Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)** license;  
-however, any file derived from OASIS-1 must also comply with the original **OASIS DUA**.
+### Third-party datasets used for evaluation (not redistributed here)
+- **IXI dataset** — licensed under **CC BY-SA 3.0**.  
+  *No IXI voxels or derivatives are distributed in this repository.* Users who obtain IXI must comply with IXI’s license.
+- **OASIS-1** — governed by the **OASIS Data Use Agreement (DUA)**.  
+  *No OASIS voxels are redistributed here.* Any external use of OASIS requires compliance with the original DUA.
+
+**Note:** Data *versioning*: The current packaging (“TemplateFlow layout r1”) does **not** alter voxel values, shape, or affine of the template/masks; it changes filenames/folders and aligns licensing only.
 
 # 5. Citation
 If you use this template or any associated data, please cite **both** the article and the dataset:
