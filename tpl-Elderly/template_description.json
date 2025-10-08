@@ -11,8 +11,8 @@
   "Name": "Elderly Brain Template (1 mm)",
   "ReferencesAndLinks": [
     "https://doi.org/10.1016/j.neuroimage.2025.121473",
-    "https://doi.org/10.5281/zenodo.16249928",    // ← Concept DOI
-    "https://doi.org/10.5281/zenodo.16827113"     // ← Version DOI（v1.1）
+    "https://doi.org/10.5281/zenodo.16249928",    
+    "https://doi.org/10.5281/zenodo.16827113"     
   ],
   "res": {
     "01": {
