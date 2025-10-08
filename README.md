@@ -75,7 +75,7 @@ masks/
     ├─ gm_mask.nii.gz
     ├─ wm_mask.nii.gz
     └─ csf_mask.nii.gz
-
+```
 ## 2.7 TemplateFlow (tpl-Elderly) — pending
 
 **Identifier**: `tpl-Elderly` **Resolution**: `res-01` (1 mm)  
