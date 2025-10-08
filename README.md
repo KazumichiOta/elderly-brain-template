@@ -76,6 +76,23 @@ masks/
     ├─ wm_mask.nii.gz
     └─ csf_mask.nii.gz
 ```
+## 2.7 TemplateFlow (tpl-Elderly) — pending
+
+**Identifier**: `tpl-Elderly` **Resolution**: `res-01` (1 mm)  
+**Packaging**: TemplateFlow layout r1（**voxel/shape/affine は Zenodo v1.1 と同一**）
+
+### Files (TemplateFlow naming)
+- `tpl-Elderly_res-01_T1w.nii.gz`
+- `tpl-Elderly_res-01_desc-{gm,wm,csf}_mask.nii.gz`
+- `tpl-Elderly_res-01_desc-{brainstem,amygdala,caudate,hippocampus,pallidum,putamen,thalamus}_mask.nii.gz`
+- `template_description.json`
+
+### How to fetch (after acceptance)
+```python
+from templateflow import api as tf
+t1 = tf.get('tpl-Elderly', resolution='01', suffix='T1w', extension='nii.gz')
+gm = tf.get('tpl-Elderly', resolution='01', desc='gm', suffix='mask', extension='nii.gz')
+print(t1); print(gm)
 
 # 3. Usage Guidelines
 
@@ -115,7 +132,7 @@ If you use this template or any associated data, please cite **both** the articl
 Ota K (Corresponding author), Nakazato Y., Oyama G.
 Developing and Validating an Elderly Brain Template:
 A Comprehensive Comparison with MNI152 for Age-Specific Neuroimaging Analyses.
-NeuroImage. 2025; in press. https://doi.org/10.1016/j.neuroimage.2025.121473
+**NeuroImage**. 2025; 320:121473 https://doi.org/10.1016/j.neuroimage.2025.121473
 
 Dataset DOI: https://doi.org/10.5281/zenodo.16827113  (Elderly Brain Template v1.1)  
 
